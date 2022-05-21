@@ -1,0 +1,262 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&display=swap");
+
+/* Navbar styles */
+.navbar-nav a {
+  font-size: 18px;
+  font-family: "Neuzit Heavy", sans-serif;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #ca1515;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca1515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.login-class:hover {
+  background-color: #ca0101;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/* Home styles */
+
+.outer-grid {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 946px 946px;
+  grid-gap: 8px;
+}
+
+.inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4px;
+}
+
+.image_one {
+  background-image: url("./assests/home_two.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.image-text-container {
+  position: absolute;
+  top: 300px;
+  left: 40px;
+}
+
+.image-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  color: white;
+}
+
+.image-sub-heading {
+  font-family: "Neuzit Heavy", sans-serif;
+  color: white;
+  width: 600px;
+}
+
+.image-sub-shop-now {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.image-sub-shop-now:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca1515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.image-sub-shop-now:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.image_two {
+  background-image: url("./assests/home_three.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.image-two-text-container {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+
+.image-two-heading {
+  font-family: "Neuzit Heavy", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.image-two-sub-heading {
+  font-family: "Neuzit Heavy", sans-serif;
+  color: white;
+}
+
+.image-two-sub-shop-now {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.image-two-sub-shop-now:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca1515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.image-two-sub-shop-now:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.image_three {
+  background-image: url("./assests/home_one.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.image_four {
+  background-image: url("./assests/home_four.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.image_five {
+  background-image: url("./assests/home_five.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* Product page styles */
+
+.new-products {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-family: "Neuzit Heavy", sans-serif;
+  font-weight: 500;
+}
+
+.underline {
+  width: 120px;
+  height: 5px;
+  background-color: #ca1515;
+}
+
+.product-categories {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "Neuzit Heavy", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.product-categories:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca1515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.product-categories:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.card-title {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  font-family: "Neuzit Heavy", sans-serif;
+}
+
+.card {
+  border: none !important;
+}
+
+.buy-now {
+  font-size: 20px;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Neuzit Heavy", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.buy-now:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  text-decoration: none !important;
+
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ca1515;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.buy-now:hover:after {
+  transform: scaleX(1);
+  text-decoration: none !important;
+  transform-origin: bottom left;
+}
